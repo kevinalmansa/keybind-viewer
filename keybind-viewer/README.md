@@ -28,7 +28,7 @@ The live binding list always comes from Hyprland. `labels.luau` contains a small
 Add this repository as a Noctalia plugin source:
 
 ```bash
-noctalia msg plugins source add keybind-viewer git <repo-url>
+noctalia msg plugins source add keybind-viewer git https://github.com/kevinalmansa/keybind-viewer.git
 ```
 
 Then enable the plugin:
