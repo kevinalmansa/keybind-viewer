@@ -1,0 +1,5 @@
+[[plugin]]
+id = "kevinalmansa/keybind-viewer"
+name = "Keybind Viewer"
+version = "1.0.0"
+plugin_api = 24

@@ -1,0 +1,20 @@
+id = "kevinalmansa/keybind-viewer"
+name = "Keybind Viewer"
+version = "1.0.0"
+plugin_api = 24
+author = "kevinalmansa"
+license = "MIT"
+dependencies = ["hyprctl"]
+tags = ["utility", "hyprland"]
+icon = "keyboard"
+description = "A small read-only viewer for the keybindings currently registered in Hyprland."
+
+[[panel]]
+id = "cheatsheet"
+entry = "panel.luau"
+width = 820
+height = 620
+placement = "floating"
+position = "center"
+keyboard_focus = "exclusive"
+dismiss_on_outside_click = true
